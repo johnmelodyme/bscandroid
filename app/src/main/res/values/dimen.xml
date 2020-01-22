@@ -1,0 +1,13 @@
+<resources>
+    <!-- news -->
+    <dimen name="viewListingHeight">185dp</dimen>
+    <dimen name="viewTitleSize">14sp</dimen>
+    <dimen name="viewDescriptionSize">10sp</dimen>
+
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_extra_large">24dp</dimen>
+
+
+</resources>

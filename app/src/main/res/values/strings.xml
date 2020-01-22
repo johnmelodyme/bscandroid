@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Blood Sugar Control</string>
+    <string name="temp">temp</string>
+
+    <string name="emailhint">Enter Email</string>
+    <string name="passwordemail">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="version">Version 2.0.0</string>
+
+    <string name="pause">Pause</string>
+    <string name="play">Play</string>
+    <string name="forward"> +5 Sec</string>
+    <string name="Rewind">-5 Sec</string>
+    <string name="stop">Stop</string>
+
+    <string name="menu">  Menu</string>
+    <string name="profile">Profile</string>
+    <string name="reload">Reload</string>
+    <string name="news">NEWS</string>
+    <string name="copyright"> All right Reserved © 2020 Star Labs Bioscience </string>
+
+    <string name="bluetooth_off">Bluetooth Status: [ OFF ]</string>
+    <string name="bluetooth_on">Bluetooth Status: [ ON ]</string>
+    <string name="bluetooth_err">BLUETOOTH NOT SUPPORTED IN THIS DEVICE</string>
+    <string name="bluetooth_connect">PLEASE CONNECT TO "NST-BSC"</string>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="ok">OK</string>
+    <string name="paymentTitle">Reload</string>
+    <string name="accountNumber">ACC 12345</string>
+    <string name="internet_bal">INTERNET BAL...</string>
+    <string name="manage_account">MANAGE ACCOUNT</string>
+    <string name="pay_now">PAY NOW</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="recharge">Recharge</string>
+    <string name="pay_bills">Pay bills</string>
+    <string name="add_bank">Add bank</string>
+    <string name="electricity_bil">Electricity bil</string>
+    <string name="gift_card">Gift card</string>
+    <string name="book_cab">Book cab</string>
+    <string name="airtel_family_plan">Airtel Family Plan</string>
+    <string name="read_more">Read More</string>
+    <string name="pay_sucess">Thank you for your using us. We hope you have nice sleeping time</string>
+    <string name="view_or_download_the_receipt">VIEW OR DOWNLOAD THE RECEIPT</string>
+    <string name="_4601_xxxx_xxxx_xxxx">4601 - XXXX - XXXX - XXXX</string>
+    <string name="card_number">Card Number</string>
+    <string name="_05_mar_2019">05 Mar 2019</string>
+    <string name="transaction_date">Transaction Date</string>
+    <string name="_190123456789">190123456789</string>
+    <string name="transaction_id">Transaction ID</string>
+    <string name="amount_paid">Amount Paid</string>
+    <string name="_98210xxxxx">98210XXXXX</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="_610">610</string>
+
+    <string name="dummytext">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown...</string>
+
+
+    <string name="companyLogo">Company Logo</string>
+    <string name="viewTitle">View Title</string>
+    <string name="viewDescription">View Description</string>
+
+    <string name="profileButton"> Profile\u0020\u0020 </string>
+    <string name="paymentButton">Payment</string>
+    <string name="_609_10">609.10</string>
+    <string name="clear_number">Clear Number</string>
+    <string name="topUpNumberPlaceHolder">Key In Top Up Number here</string>
+    <string name="prevButton">Previous </string>
+    <string name="contentDescription">Content Description</string>
+    <string name="username">Username</string>
+    <string name="totalHourPlay">96</string>
+    <string name="totalHourPlayText">Total Hour Play</string>
+    <string name="lastDatePlayable">12&#45;12&#45;2020</string>
+    <string name="lastDatePlayableText">Valid till</string>
+    <string name="topUpCard">Top Up Card</string>
+    <string name="reloadTitle">Enter Your 14 digit PIN</string>
+    <string name="keyIn4Digit">00&#45;0000&#45;0000&#45;0000</string>
+    <string name="notEnough14Character">Please Enter Your 14 digi PIN</string>
+    <string name="bluetoothMissing">Please connect to "<b>NST-BSC</b>" bluetooth headphone</string>
+    <string name="company_profile">Company Profile</string>
+    <string name="bluetoothDeviceName">NST-BSC</string>
+    <string name="showpassword">Show Password</string>
+    <string name="msg">PLEASE CONNECT TO</string>
+    <string name="msg1">"NST-BSC"</string>
+    <string name="forgetpassword">Forgot Password? </string>
+    <string name="whatsappText">Whatsapp</string>
+    <string name="facebookText">Facebook</string>
+    <string name="webText">Web</string>
+    <string name="social">Social</string>
+    <string name="historyText">History</string>
+    <string name="loadingText">Loading....</string>
+    <string name="noRecord">No Data Available</string>
+    <string name="days">Days</string>
+    <string name="date_purchase">Date Purchase</string>
+    <string name="musicText">Music</string>
+    <string name="reload_history">Reload History</string>
+    <string name="setting">Setting\u0020\u0020 </string>
+    <string name="pleaseCallAdmin">Please call admin for futher information</string>
+    <string name="warning">Warning</string>
+
+
+    <string name="home">Home</string>
+    <string name="p_news">News</string>
+    <string name="history">History</string>
+    <string name="me">Profile</string>
+
+    <!--APPLICATION SHORTCUTS -->
+    <string name="playshort">Play</string>
+
+</resources>

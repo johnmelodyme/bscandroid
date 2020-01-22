@@ -1,0 +1,2 @@
+FOR AUDIO MANAGER ::  https://stackoverflow.com/questions/59483359/silentmode-android-on-start
+FOR BLUETOOTH :: https://stackoverflow.com/questions/31921408/connect-to-specific-bluetooth-device-with-a-click

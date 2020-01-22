@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+ android:theme="@style/Theme.AppCompat.NoActionBar"
+    android:fillViewport="true">
+
+    <!--ADJUSTED-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <EditText
+            android:id="@+id/password_edit_test"
+            android:layout_width="284dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="59dp"
+            android:padding="10dp"
+            android:background="@drawable/edittext"
+            android:focusableInTouchMode="true"
+            android:hint="@string/passwordemail"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:textColor="@color/ORANGE"
+            android:textColorHint="@color/hint"
+            android:textIsSelectable="true"
+            app:layout_constraintBottom_toTopOf="@+id/Showpass"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:imeOptions="actionDone"
+            android:windowSoftInputMode="adjustPan"          
+            app:layout_constraintTop_toBottomOf="@+id/email_edit_text" />
+
+        <EditText
+            android:id="@+id/email_edit_text"
+            android:layout_width="284dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="68dp"
+            android:padding="10dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="59dp"
+            android:background="@drawable/edittext"
+            android:hint="@string/emailhint"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/ORANGE"
+            android:textColorHint="@color/hint"
+            android:textIsSelectable="true"
+            app:layout_constraintBottom_toTopOf="@+id/password_edit_test"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:privateImeOptions="nm"
+            android:windowSoftInputMode="adjustPan"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="284dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="59dp"
+            android:background="@drawable/button_radius_orange"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:shadowRadius="5"
+            android:text="@string/login"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Showpass" />
+
+        <Button
+            android:id="@+id/Register"
+            android:layout_width="284dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="59dp"
+            android:background="@drawable/button_radius_orange"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:shadowRadius="5"
+            android:text="@string/register"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginButton" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="410dp"
+            android:layout_height="232dp"
+            android:layout_marginTop="20dp"
+android:contentDescription="@string/contentDescription"
+            app:layout_constraintBottom_toTopOf="@+id/email_edit_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:srcCompat="@drawable/qwerty" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="309dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="56dp"
+android:contentDescription="@string/contentDescription"            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/lowgo" />
+
+        <CheckBox
+            android:id="@+id/Showpass"
+            android:layout_width="284dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="59dp"
+            android:buttonTint="@color/white"
+            android:text="@string/showpassword"
+            android:textColor="@color/hint"
+            android:theme="@style/WhiteCheck"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/password_edit_test" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

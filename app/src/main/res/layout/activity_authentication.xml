@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Authentication">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_height="200dp"
+        android:layout_width="312dp"
+        android:layout_marginTop="10dp"
+
+        android:contentDescription="@string/companyLogo"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:srcCompat="@mipmap/login" />
+
+    <EditText
+        android:id="@+id/email_edit_text"
+        android:layout_width="284dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="@string/emailhint"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        android:importantForAutofill="no"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/password_edit_test"
+        android:layout_width="284dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="@string/passwordemail"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:importantForAutofill="no"
+        app:layout_constraintTop_toBottomOf="@+id/email_edit_text" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="284dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="115dp"
+        android:background="@drawable/button_radius_orange"
+        android:shadowRadius="5"
+        android:text="@string/login"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_edit_test"
+        app:layout_constraintVertical_bias="0.142"
+
+        android:foreground="?android:attr/selectableItemBackgroundBorderless"
+
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

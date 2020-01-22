@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/HOME"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home_black_24dp"
+        />
+
+    <item
+        android:id="@+id/NEWS"
+        android:title="@string/p_news"
+        android:icon="@drawable/ic_news"
+        />
+
+    <item
+        android:id="@+id/HISTORY"
+        android:title="@string/history"
+        android:icon="@drawable/ic_history"
+        />
+
+    <item
+        android:id="@+id/PROFILE"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_person_profile"
+        />
+
+</menu>

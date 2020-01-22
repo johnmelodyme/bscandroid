@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="Play"
+        android:enabled="true"
+        android:icon="@drawable/ic_play_circle_filled_black_24dp"
+        android:shortcutShortLabel="@string/playshort"
+        >
+    <intent
+        android:action="android.intent.Action.VIEW"
+        android:targetPackage="com.starlabbioscience.bloodsugarcontrol"
+        android:targetClass="com.starlabbioscience.bloodsugarcontrol.Authentication"/>
+<!--        <categories android:name="android.bluetooth.BluetoothAdapter" />-->
+    </shortcut>
+
+
+<!--    <shortcut-->
+<!--        android:shortcutId="OnBluetooth"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/ic_bluetooth_black_24dp"-->
+<!--        android:shortcutShortLabel="@string/bluetooth_on"-->
+<!--        >-->
+<!--        <intent-->
+<!--            android:action="android.bluetooth.BluetoothAdapter"-->
+<!--            android:targetPackage="com.starlabbioscience.bloodsugarcontrol"-->
+<!--            android:targetClass="com.starlabbioscience.bloodsugarcontrol"/>-->
+<!--    </shortcut>-->
+
+</shortcuts>
